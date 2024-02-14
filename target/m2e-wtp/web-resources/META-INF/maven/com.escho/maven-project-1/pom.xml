@@ -21,6 +21,7 @@
   </dependencies>
 
   <build>
+	<finalName>mavenProject</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
