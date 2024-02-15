@@ -1,0 +1,119 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TIZEN Web</title>
+</head>
+
+<body>
+	<h2>Bill Of Materials</h2>
+	<table>
+		<tbody>
+			<tr>
+				<th align="left" width="350">
+					<span id="span">Platform Version : </span> 
+					<select id="select">
+							<option>Tizen-2.2</option>
+							<option>Tizen-2.3</option>
+					</select>
+				</th>
+				<th align="right" width="350">
+					<button id="btnIdp" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false">
+						<span class="ui-button-text">Identifying Progress</span>
+					</button> &nbsp;
+					<button id="btnBom" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false">
+						<span class="ui-button-text">Bill Of Materials</span>
+					</button>
+				</th>
+			</tr>
+		</tbody>
+	</table>
+
+	<h4>Summary</h4>
+	<table border="1">
+		<tbody>
+			<tr class="header">
+				<th align="center" width="80">Project</th>
+				<th align="center" width="120">Owners</th>
+				<th align="center" width="240">Status</th>
+				<th align="center" width="240">Detected FOSS</th>
+				<th align="center" width="240">Identified License</th>
+				<th align="center" width="100">Conflict</th>
+			</tr>
+			<tr class="record">
+				<td align="center">732</td>
+				<td align="center">102</td>
+				<td align="left">Done: 700<br> In Progress: 30<br> Not Analyzed: 2
+				</td>
+				<td align="left">OpenSSL: 423,423 (45%)<br>Linux Kernel (GPL2.0): 123,423 (10%)<br>FFMpeg(LGPL2.1): 4,342 (1%)<br>+ more
+				</td>
+				<td align="left">Apache 2.0: 423,423 (45%)<br> GPL2.0: 123,423 (10%)<br> Flora: 4,342 (1%)<br> + more
+				</td>
+				<td align="center">32</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h4>Detail (Total 1,732 FOSS Components)</h4>
+	<div id="radioset" class="ui-buttonset">
+		<input type="radio" id="radio1" name="radio" checked="checked" class="ui-helper-hidden-accessible"><label for="radio1"
+			class="ui-state-active ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left" role="button" aria-disabled="false"><span class="ui-button-text">Component
+				기준 </span></label> 
+		<input type="radio" id="radio2" name="radio" class="ui-helper-hidden-accessible"><label for="radio2"
+			class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-right" role="button" aria-disabled="false"><span class="ui-button-text">License
+				기준</span></label>
+	</div>
+	<table border="1">
+		<tbody>
+			<tr class="header">
+				<th align="center" width="180">FOSS Component</th>
+				<th align="center" width="120">Version</th>
+				<th align="center" width="160">License</th>
+				<th align="center" width="140">Total Files</th>
+				<th align="center" width="180">Related Projects</th>
+			</tr>
+
+			<tr class="record">
+				<td align="left">test3</td>
+				<td align="left">test3</td>
+				<td align="right">10.240.48.3</td>
+				<td align="right">10.240.48.3</td>
+				<td align="right">10.240.48.3</td>
+			</tr>
+
+			<tr class="record">
+				<td align="left">test3</td>
+				<td align="left">test3</td>
+				<td align="right">10.240.48.3</td>
+				<td align="right">10.240.48.3</td>
+				<td align="right">10.240.48.3</td>
+			</tr>
+
+			<tr class="record">
+				<td align="left">test3</td>
+				<td align="left">test3</td>
+				<td align="right">10.240.48.3</td>
+				<td align="right">10.240.48.3</td>
+				<td align="right">10.240.48.3</td>
+			</tr>
+
+			<tr class="record">
+				<td align="left">test3</td>
+				<td align="left">test3</td>
+				<td align="right">10.240.48.3</td>
+				<td align="right">10.240.48.3</td>
+				<td align="right">10.240.48.3</td>
+			</tr>
+
+			<tr class="record">
+				<td align="left">test3</td>
+				<td align="left">test3</td>
+				<td align="right">10.240.48.3</td>
+				<td align="right">10.240.48.3</td>
+				<td align="right">10.240.48.3</td>
+			</tr>
+
+		</tbody>
+	</table>
+
+</body>
+</html>

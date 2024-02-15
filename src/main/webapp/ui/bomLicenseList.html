@@ -1,0 +1,129 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TIZEN Web</title>
+<link type="text/css" rel="stylesheet" href="../css/default.css">
+<link type="text/css" rel="stylesheet" href="../css/bootstrap.css">
+<link type="text/css" rel="stylesheet" href="../css/bootstrap-theme.css">
+<link type="text/css" rel="stylesheet" href="../css/jquery-ui-1.10.4.custom.css">
+<script type="text/javaScript" src="../js/bootstrap.js"></script>
+<script type="text/javaScript" src="../js/jquery-1.10.2.js"></script>
+<script type="text/javaScript" src="../js/jquery-ui-1.10.4.custom.js"></script>
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-brand" style="color: white;">TIZEN Web</div>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h2>Bill Of Materials</h2>
+			<table>
+				<tbody>
+					<tr>
+						<th align="left" width="350">
+							<span id="span">Platform Version : </span> 
+							<select id="select">
+								<option>Tizen-2.2</option>
+								<option>Tizen-2.3</option>
+							</select>
+						</th>
+						<th align="right" width="350">
+							<button type="button" class="btn btn-default">Identifying Progress</button>
+							<button type="button" class="btn btn-primary">Bill Of Materials</button>
+						</th>
+					</tr>
+				</tbody>
+			</table>            
+        </div>
+    </div>
+
+    <div class="container">
+    
+    	<!-- Summary -->
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Summary</h3>
+				<table class="table table-hover table-striped table-bordered">
+					<thead>	
+						<tr>
+							<th align="center" width="80">Project</th>
+							<th align="center" width="120">Owners</th>
+							<th align="center" width="240">Status</th>
+							<th align="center" width="240">Detected FOSS</th>
+							<th align="center" width="240">Identified License</th>
+							<th align="center" width="100">Conflict</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="odd">
+							<td align="center">732</td>
+							<td align="center">102</td>
+							<td align="left">Done: 700<br> In Progress: 30<br> Not Analyzed: 2</td>
+							<td align="left">OpenSSL: 423,423 (45%)<br>Linux Kernel (GPL2.0): 123,423 (10%)<br>FFMpeg(LGPL2.1): 4,342 (1%)<br>+ more</td>
+							<td align="left">Apache 2.0: 423,423 (45%)<br> GPL2.0: 123,423 (10%)<br> Flora: 4,342 (1%)<br> + more</td>
+							<td align="center">32</td>
+						</tr>
+					</tbody>
+				</table>                
+            </div>
+        </div>
+        <br/>
+        
+        <!-- Detail -->
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Detail (Total 1,732 FOSS Components)</h3>                
+				<button type="button" class="btn btn-default">Component 기준</button>
+                <button type="button" class="btn btn-primary">License 기준</button>
+                <br/><br/>
+				<table class="table table-hover table-striped table-bordered">
+					<thead>
+						<tr>
+							<th align="center" width="160">License</th>
+							<th align="center" width="140">Total Files</th>
+							<th align="center" width="180">Related Projects</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="odd">
+							<td align="right">10.240.48.3</td>
+							<td align="right">10.240.48.3</td>
+							<td align="right">10.240.48.3</td>
+						</tr>
+			
+						<tr class="even">
+							<td align="right">10.240.48.3</td>
+							<td align="right">10.240.48.3</td>
+							<td align="right">10.240.48.3</td>
+						</tr>
+			
+						<tr class="odd">
+							<td align="right">10.240.48.3</td>
+							<td align="right">10.240.48.3</td>
+							<td align="right">10.240.48.3</td>
+						</tr>
+			
+						<tr class="even">
+							<td align="right">10.240.48.3</td>
+							<td align="right">10.240.48.3</td>
+							<td align="right">10.240.48.3</td>
+						</tr>
+			
+						<tr class="odd">
+							<td align="right">10.240.48.3</td>
+							<td align="right">10.240.48.3</td>
+							<td align="right">10.240.48.3</td>
+						</tr>
+					</tbody>
+				</table>                
+            </div>
+        </div>
+        
+        <!-- End -->
+    </div>
+</body>
+</html>
