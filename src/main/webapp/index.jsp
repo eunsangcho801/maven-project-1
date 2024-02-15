@@ -15,7 +15,7 @@
 <script>
 function responseName(){
 	var name = document.getElementById('name').value;
-	alert("Hi, " + name + "!!");
+	alert("Hi, " + name + "!!!");
 }
 </script>
 
